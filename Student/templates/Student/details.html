@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}
+    - Student details
+{% endblock %}
+
+{% block content %}
+
+    <h1>Details page for student {{ student.Id }}</h1>
+
+    <div>
+        <strong>Student Id: </strong>
+        <span>{{ student.Id }}</span>
+    </div>
+
+    <div>
+        <strong>Student Name: </strong>
+        <span>{{ student.Name }}</span>
+    </div>
+
+{% endblock %}
